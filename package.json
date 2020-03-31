@@ -1,0 +1,26 @@
+{
+  "name": "node-express-handlebars",
+  "version": "1.0.0",
+  "description": "Not completed yet.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jtelban1/node-express-handlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jtelban1/node-express-handlebars/issues"
+  },
+  "homepage": "https://github.com/Jtelban1/node-express-handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "mysql": "^2.18.1"
+  }
+}
