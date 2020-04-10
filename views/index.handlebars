@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col">
+        {{# each burgers}}
+        <div class="row p-4">
+            <div class="col">
+                {{burger_name}}
+            </div>
+            <div class="col">
+                <button class="btn btn-success" onclick="devour({{id}})">Devour me!</button>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="col p-4">
+        <div class="card">
+            <div class="card-body">
+                <form method="post">
+                    <div class="form-group">
+                        <label for="name">Burger name</label>
+                        <input class="form-control" type="text" id="name" name="burger_name">
+                    </div>
+                    <div>
+                        <input type="submit" value="submit" class="btn btn-success">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <h3>Eaten burgers</h3>
+        {{# each burgers}}
+        {{#if devoured }}
+        <div class="row">
+            <div class="col">
+                {{burger_name}}
+            </div>
+            <div class="col">
+                <img style="width:150px" src="assets/burger.jpg" alt="here be image">
+            </div>
+        </div>
+        {{/if}}
+        {{/each}}
+    </div>
+</div>
