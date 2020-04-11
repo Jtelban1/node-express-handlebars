@@ -10,6 +10,6 @@
 
 -   Created Views using handlebars.
 
-GitHub
+GitHub https://github.com/Jtelban1/node-express-handlebars.git
 
-Herko
+Herko https://johns-burger-app.herokuapp.com/
